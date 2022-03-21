@@ -1,0 +1,131 @@
+input {
+  width: 80%;
+  height: 40px;
+  background-image: url("images/searchicon.png");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+}
+input:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.article_thumbnail {
+  height: 200px;
+  width: 90%;
+  margin-bottom: 2%;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+}
+.article_thumbnail:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.article_image {
+  width: 60%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  clip-path: inset(0px 30% 0px 0px);
+}
+
+.article_image:hover {
+  width: 60%;
+  height: 100%;
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  clip-path: inset(0px 0% 0px 0px);
+}
+
+.article_text {
+  font-size: small;
+  margin-left: -15%;
+  padding-right: 2%;
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.article_category {
+  margin-top: -5%;
+  color: purple;
+  font-size: small;
+}
+
+.article_subtext {
+  margin-top: -4%;
+}
+
+.video_thumbnail {
+  height: 300px;
+  width: 90%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video_thumbnail:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.video_image {
+  height: 60%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.video_category {
+  padding-left: 5%;
+  color: purple;
+  font-size: medium;
+}
+
+.video_subtext {
+  font-size: small;
+  margin-top: -2%;
+  padding: 0% 3% 0% 5%;
+}
+
+#root {
+  font-family: arial;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+#column1 {
+  width: 35%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#column2 {
+  width: 25%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#article_search {
+  margin-bottom: 10%;
+  padding-left: 40px;
+}
+
+#article_column_title {
+  align-self: flex-start;
+  margin-left: 7%;
+}
+
+/*# sourceMappingURL=index.css.map */
